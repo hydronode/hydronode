@@ -1,5 +1,5 @@
 # hydronode
-> Modular and universal hydroinformatics & transforms
+> Modular and universal hydroinformatics & data translations
 
 Hydronode is based on [Bionode](http://bionode.io). 
 
@@ -52,8 +52,8 @@ The following are modules available/planned for Hydronode.
 
 | Name                   | Type          | Description                                       | Status<sup>1</sup>          | People<sup>2</sup>                                                    |
 |------------------------|---------------|---------------------------------------------------|-----------------------------|-----------------------------------------------------------------------|
-| [hydstra]              | Parser, Importer, Translater   | Access to [Kisters|Hydstra] webservices           | ![development][development]   |   |
-| [qldgwdb]              | Parser, Importer, Translater  |                                       | ![development][development]      |  |
+| [hydstra]              | Parser, Importer, Translater   | Access to [Kisters-Hydstra] water data webservices           | ![development][development]   |   |
+| [qldgwdb]              | Parser, Importer, Translater  |  Manual upload of Queensland Government Groundwater Database                                     | ![development][development]      |  |
 
 [1]: Current status of the module
 * ![production][production] means the module is still in development but has many features complete and is used intensively. 
