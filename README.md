@@ -1,3 +1,5 @@
+![hydronode](https://avatars3.githubusercontent.com/u/13155560?v=3&s=200)
+
 # hydronode
 > Modular and universal hydroinformatics & data translations
 
