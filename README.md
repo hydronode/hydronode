@@ -1,6 +1,6 @@
 ![hydronode](https://avatars3.githubusercontent.com/u/13155560?v=3&s=200)
 
-# hydronode
+# hydronode - not yet on npm!
 > Modular and universal hydroinformatics & data translations
 
 Hydronode is based on [Bionode](http://bionode.io). 
