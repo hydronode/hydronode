@@ -50,7 +50,7 @@ List of modules
 
 The following are modules available/planned for Hydronode.
 
-| Name                   | Type          | Description                                       | Status<sup>1</sup>          | People<sup>2</sup>                                                    |
+| Name                   | Type          | Description                                       | Status<sup>1</sup>          | People                                                   |
 |------------------------|---------------|---------------------------------------------------|-----------------------------|-----------------------------------------------------------------------|
 | [hydstra]              | Parser, Importer, Translater   | Access to [Kisters-Hydstra] water data webservices           | ![development][development]   |   |
 | [qldgwdb]              | Parser, Importer, Translater  |  Manual upload of Queensland Government Groundwater Database                                     | ![development][development]      |  |
@@ -81,7 +81,7 @@ For a list of contributors, see the file [contributors.md](contributors.md).
 
 Contacts
 --------
-[Sholto Maud](http://sholtomaud.com) <[mail@sholtomaud.com](mailto:sholto.maud@gmail.com)> [@bmpvieira](//twitter.com/sholtomaud)  
+[Sholto Maud](http://sholtomaud.com) <[mail@sholtomaud.com](mailto:sholto.maud@gmail.com)> [@sholtomaud](//twitter.com/sholtomaud)  
 
 License
 -------
