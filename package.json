@@ -1,0 +1,72 @@
+{
+  "name": "hydronode",
+  "description": "A Node.js JavaScript library for client and server side bioinformatics",
+  "version": "2.0.0",
+  "homepage": "http://hydronode.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hydronode/hydronode.git"
+  },
+  "author": {
+    "name": "Bruno Vieira",
+    "email": "mail@bmpvieira.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "hydronode-hydstra": "^1.0.0",
+    "hydronode-qldgwdb": "^1.0.0",
+    "minimist": "^1.1.0"
+  },
+  "devDependencies": {
+    "async": "^0.9.0",
+    "contributor": "^0.1.22",
+    "coveralls": "~2.11.2",
+    "debug": "^2.1.3",
+    "dependency-check": "^2.3.1",
+    "docco": "~0.6.3",
+    "doxx": "^1.2.1",
+    "glob": "^4.3.1",
+    "istanbul": "~0.3.5",
+    "request": "^2.49.0",
+    "standard": "^3.3.2",
+    "tap-spec": "^2.1.1",
+    "tape": "^3.0.3",
+    "tool-stream": "^0.2.1"
+  },
+  "keywords": [
+    "hydro",
+    "hydrology",
+    "hydroinformatics",
+    "hydronode",
+    "hydrogeology",
+    "surfacewater",
+    "groundwater",
+    "water level",
+    "rainfall",
+    "bores",
+    "streams",
+    "util",
+    "server",
+    "client",
+    "browser"
+  ],
+  "main": "index.js",
+  "bin": {
+    "hydronode": "cli.js"
+  },
+  "scripts": {
+    "test": "tape node_modules/hydronode-*/test/*.js | tap-spec",
+    "coverage": "istanbul cover test/hydronode.js --report lcovonly -- | tap-spec && rm -rf ./coverage",
+    "coveralls": "istanbul cover test/hydronode.js --report lcovonly -- | tap-spec && cat ./coverage/lcov.info | ./node_modules/.bin/coveralls && rm -rf ./coverage",
+    "build-docs": "node docs/build.js > docs/hydronode.html"
+  },
+  "contributors": [
+    {
+      "name": "Sholto Maud",
+      "email": "sholto.maud@gmail.com",
+      "url": "https://github.com/shotlom",
+      "contributions": 2,
+      "hireable": true
+    }
+  ]
+}
