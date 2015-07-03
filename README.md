@@ -56,6 +56,7 @@ The following are modules available/planned for Hydronode.
 | [qldgwdb]              | Parser, Importer, Translater  |  Manual upload of Queensland Government Groundwater Database                                     | ![development][development]      |  |
 
 [1]: Current status of the module
+
 * ![production][production] means the module is still in development but has many features complete and is used intensively. 
 * ![development][development] means the module still lacks some features, tests or has some issues.
 * ![request][request] means the module has been requested, discussed and planned, but is not yet implemented.
@@ -69,10 +70,8 @@ Support
 -------
 
 If you find a bug please use the [issues](http://github.com/hydronode/hydronode/issues) tracker to report it.  
-If you need help with this particular module, you can use the respective [gitter](http://gitter.im/hydronode/hydronode) chat room.  
-For general help or discussion about the hydronode project, you can use the IRC channel [#hydronode](https://www.irccloud.com/#!/ircs://irc.freenode.net:6697/%23hydronode) on Freenode.  
-Hydronode is collaborating with [BioJS](http:/biojs.net) which also has a IRC channel at [#biojs](https://www.irccloud.com/#!/ircs://irc.freenode.net:6697/%23biojs).
 
+If you need help with this particular module, you can use the respective [gitter](http://gitter.im/hydronode/hydronode) chat room.  
 
 Contributing
 ------------
